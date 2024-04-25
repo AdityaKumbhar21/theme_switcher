@@ -1,9 +1,11 @@
-# React + Vite
+# Theme Switcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mini project created to understand the working of context api in react
 
-Currently, two official plugins are available:
+Context Api
+- In React, the Context API is a feature that allows you to pass data through the component tree without having to pass props down manually at every level. 
+- It's especially useful for sharing data that needs to be accessible by many components at different nesting levels.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# theme_switcher
+
+
+We need to create a context and then consume it wherever we want by simply wrapping the all the components in the ContextProvider.
